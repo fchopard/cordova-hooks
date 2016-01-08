@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-// hook copied from https://github.com/diegonetto/generator-ionic/blob/master/templates/hooks/after_prepare/update_platform_config.js
+/** 
+    hook copied from https://github.com/diegonetto/generator-ionic/blob/master/templates/hooks/after_prepare/update_platform_config.js
+    and adapted to be able to modify android:name attribue in AndroidManifest.xml
+*/
 
 /** This hook updates platform configuration files based on preferences and config-file data defined in config.xml.
  Currently only the AndroidManifest.xml and IOS *-Info.plist file are supported.
